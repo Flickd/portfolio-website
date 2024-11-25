@@ -1,5 +1,5 @@
 import Image from 'next/image';
-import { FaGithub, FaExternalLinkAlt } from 'react-icons/fa';
+import { FaGithub, FaExternalLinkAlt, FaCalendar } from 'react-icons/fa';
 import { StaticImageData } from 'next/image';
 
 interface ProjectCardProps {
@@ -9,6 +9,7 @@ interface ProjectCardProps {
   technologies: string[];
   githubUrl?: string;
   liveUrl?: string;
+  date: string;
 }
 
 export default function ProjectCard({
@@ -18,6 +19,7 @@ export default function ProjectCard({
   technologies,
   githubUrl,
   liveUrl,
+  date,
 }: ProjectCardProps) {
   return (
     <div className="bg-white dark:bg-gray-800 rounded-lg shadow-md overflow-hidden">
@@ -33,6 +35,13 @@ export default function ProjectCard({
         <h3 className="text-xl font-semibold text-gray-900 dark:text-white mb-2">
           {title}
         </h3>
+        <div className="flex items-center text-sm text-gray-500 dark:text-gray-400 mb-3">
+          <FaCalendar className="mr-2" />
+          {new Date(date).toLocaleDateString('en-US', {
+            year: 'numeric',
+            month: 'long',
+          })}
+        </div>
         <p className="text-gray-600 dark:text-gray-300 mb-4">
           {description}
         </p>
