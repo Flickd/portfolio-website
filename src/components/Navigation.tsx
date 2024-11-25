@@ -24,11 +24,11 @@ export default function Navigation() {
             <Link href="/about" className="text-gray-700 dark:text-gray-300 hover:text-blue-600">
               About Me
             </Link>
-            <Link href="/mindmap" className="text-gray-700 dark:text-gray-300 hover:text-blue-600">
-              Mindmap
-            </Link>
             <Link href="/portfolio" className="text-gray-700 dark:text-gray-300 hover:text-blue-600">
               Portfolio
+            </Link>
+            <Link href="/mindmap" className="text-gray-700 dark:text-gray-300 hover:text-blue-600">
+              Mindmap
             </Link>
             <Link href="/blog" className="text-gray-700 dark:text-gray-300 hover:text-blue-600">
               Blog
