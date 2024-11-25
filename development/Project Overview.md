@@ -1,7 +1,7 @@
 # Project Overview
 
 ## Goals and Objectives
-The website should have an interesting homepage, that sparks the visitors attention. There should be section for every main page introducing the respective page. Other pages are a portfolio, where i feature projects and my skills i learned over the years. Another page is a Blog page, where i want to collect news from computer science and AI in particular. I also want to make a tutorial section, where i explain computer science topics understandably for interested students. Of course there should be an About and Contact section.
+This portfolio website acts as a dynamic platform to organize, refresh and showcase my knowledge and projects. It will help me solidify my understanding of computer science topics and make me stand out to potential employers. It has a blog page where i can share interesting news, particularly in AI.
 
 ## Target Audience
 

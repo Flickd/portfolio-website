@@ -23,24 +23,23 @@
 
 ### Pages and Features 
 1. **Homepage**
-   - Experimental layout for creativity.
-   - Highlights key section (Portfolio, Blog, Teaching)
-2. **Portfolio Page**
-   - Showcase individual projects with images, tools used, and outcomes.
-   - Dynamic routes: `/portfolio/[id]`.
-3. **Projects Page**
+   - Introduction of myself
+   - Brief summary of my goals
+   - Navigation to other pages, like the projects and blog.
+2. **About Me**
+   - Short bio with my skills, education and contact details.
+   - Includes downloadable resume/CV.
+3. **CS MindMap**
+   - Includes every field in computer science
+   - Nodes show my education in its field and link to a page for that field.
+4. **Projects Page**
    - A broader collection of projects or grouped by categories.
-4. **Blog Page**
+   - Cards with images, descriptions and links to GitHub repositories or live demos.
+5. **Blog Page**
    - Dynamic blog routes: `/blog/[slug]`.
    - Pagination for posts.
    - Newsletter subscription.
-5. **Teaching Page**
-   - Tutorials tags and categories.
-   - Rich formatting support (e.g., code blog, diagrams)
-6. **About Page**
-    - Summary of personal and professional details.
-    - Integration with LinkedIn, GitHub, and other platforms.
-7. **Contact Page**
+6. **Contact Page**
    - Contact form with emailvalidation.
    - Display email, phone, and social media links.
 
