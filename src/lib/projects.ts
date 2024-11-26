@@ -1,5 +1,7 @@
 import { StaticImageData } from 'next/image';
 import AIChatImage from '@/app/content/images/AI_Chat_Application.png';
+import PWImage from '@/app/content/images/website project cover.webp';
+import AutomationProjectImage from '@/app/content/images/Automation project.webp';
 // Import other project images...
 
 export interface Project {
@@ -15,74 +17,24 @@ export interface Project {
 
 const projects: Project[] = [
   {
-    title: 'AI Chat Application',
-    description: 'A real-time chat application powered by artificial intelligence, built with Next.js and OpenAI API.',
-    image: AIChatImage,
-    technologies: ['Next.js', 'TypeScript', 'OpenAI', 'TailwindCSS'],
-    githubUrl: 'https://github.com/yourusername/ai-chat',
-    liveUrl: 'https://ai-chat-demo.com',
+    title: 'Danicel Portfolio Website',
+    description: 'A platform to showcase my projects and skills.',
+    image: PWImage,
+    technologies: ['Next.js', 'TypeScript', 'TailwindCSS'],
+    githubUrl: 'https://github.com/flickd/portfolio-website',
+    liveUrl: '',
     featured: true,
-    date: '2024-03-15',
+    date: '2024-11-25',
   },
   {
-    title: 'Project 2',
-    description: 'A real-time chat application powered by artificial intelligence, built with Next.js and OpenAI API.',
-    image: AIChatImage,
-    technologies: ['Next.js', 'TypeScript', 'OpenAI', 'TailwindCSS'],
-    githubUrl: 'https://github.com/yourusername/ai-chat',
-    liveUrl: 'https://ai-chat-demo.com',
-    featured: false,
-    date: '2024-04-15',
-  },
-  {
-    title: 'Project 3',
-    description: 'A real-time chat application powered by artificial intelligence, built with Next.js and OpenAI API.',
-    image: AIChatImage,
-    technologies: ['Next.js', 'TypeScript', 'OpenAI', 'TailwindCSS'],
-    githubUrl: 'https://github.com/yourusername/ai-chat',
-    liveUrl: 'https://ai-chat-demo.com',
+    title: 'Automation of Software Development Processes',
+    description: 'A university project that automates software development processes using AI, particularly automated comments and the creation of unit tests.',
+    image: AutomationProjectImage,
+    technologies: ['VS Code Extension API', 'TypeScript', 'Hugging Face', 'Ollama'],
+    githubUrl: 'https://github.com/Ataulhaye/smartautomation',
+    liveUrl: '',
     featured: true,
-    date: '2024-05-15',
-  },
-  {
-    title: 'Project 4',
-    description: 'A real-time chat application powered by artificial intelligence, built with Next.js and OpenAI API.',
-    image: AIChatImage,
-    technologies: ['Next.js', 'TypeScript', 'OpenAI', 'TailwindCSS'],
-    githubUrl: 'https://github.com/yourusername/ai-chat',
-    liveUrl: 'https://ai-chat-demo.com',
-    featured: false,
-    date: '2024-06-15',
-  },
-  {
-    title: 'Project 5',
-    description: 'A real-time chat application powered by artificial intelligence, built with Next.js and OpenAI API.',
-    image: AIChatImage,
-    technologies: ['Next.js', 'TypeScript', 'OpenAI', 'TailwindCSS'],
-    githubUrl: 'https://github.com/yourusername/ai-chat',
-    liveUrl: 'https://ai-chat-demo.com',
-    featured: true,
-    date: '2024-06-15',
-  },
-  {
-    title: 'Project 6',
-    description: 'A real-time chat application powered by artificial intelligence, built with Next.js and OpenAI API.',
-    image: AIChatImage,
-    technologies: ['Next.js', 'TypeScript', 'OpenAI', 'TailwindCSS'],
-    githubUrl: 'https://github.com/yourusername/ai-chat',
-    liveUrl: 'https://ai-chat-demo.com',
-    featured: false,
-    date: '2024-06-15',
-  },
-  {
-    title: 'Project 7',
-    description: 'A real-time chat application powered by artificial intelligence, built with Next.js and OpenAI API.',
-    image: AIChatImage,
-    technologies: ['Next.js', 'TypeScript', 'OpenAI', 'TailwindCSS'],
-    githubUrl: 'https://github.com/yourusername/ai-chat',
-    liveUrl: 'https://ai-chat-demo.com',
-    featured: false,
-    date: '2024-06-15',
+    date: '2024-11-16',
   },
   // Add more projects here...
 ];
