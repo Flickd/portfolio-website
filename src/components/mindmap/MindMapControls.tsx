@@ -13,7 +13,7 @@ export default function MindMapControls({
   onSearch,
   onZoomIn,
   onZoomOut,
-  onCenterView,
+  //onCenterView,
 }: MindMapControlsProps) {
   const [searchTerm, setSearchTerm] = useState('');
 

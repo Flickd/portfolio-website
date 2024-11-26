@@ -1,6 +1,8 @@
+'use client';
 import Navigation from '@/components/Navigation';
 import MindMap from '@/components/mindmap/MindMap';
 import { initialNodes, initialEdges } from '@/lib/mindmap';
+import { ReactFlowProvider } from 'reactflow';
 
 export default function MindMapPage() {
   return (
@@ -12,7 +14,9 @@ export default function MindMapPage() {
             Computer Science Knowledge Map
           </h1>
           <div className="bg-white dark:bg-gray-800 rounded-lg shadow-lg p-4">
-            <MindMap initialNodes={initialNodes} initialEdges={initialEdges} />
+            <ReactFlowProvider>
+              <MindMap initialNodes={initialNodes} initialEdges={initialEdges} />
+            </ReactFlowProvider>
           </div>
         </div>
       </div>
